@@ -1,0 +1,120 @@
+/**
+ * Upload 360 view (add media) plugin page styles
+ */
+
+
+/**
+ * Wrapper for the elements on the page
+ */
+#yofla360_plugin_media_wrapper{
+    height: 100%;
+}
+
+/**
+ * Upload Section
+ */
+#yofla360_plugin_media_upload{
+
+}
+
+
+#upload-wrapper {
+	width: 90%;
+	background: #ddd;
+	border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#upload-wrapper input[type=file] {
+	padding: 6px;
+	background: #FFF;
+	border-radius: 5px;
+    line-height: 16px;
+    min-width: 300px;
+}
+#upload-wrapper #submit-btn {
+	border: none;
+	padding: 10px;
+	background: #61BAE4;
+	border-radius: 5px;
+	color: #FFF;
+    margin-left: 10px;
+}
+#output{
+	padding: 5px;
+	font-size: 12px;
+}
+
+/* prograss bar */
+#progressbox {
+	border: 1px solid #61BAE4;
+	padding: 1px; 
+	position:relative;
+	width: 100%;
+    max-width: 365px;
+	border-radius: 3px;
+	margin-top: 5px;
+	display:none;
+	text-align:left;
+}
+
+#progressbar {
+	height:20px;
+	border-radius: 3px;
+	background-color: #0073aa;
+	width:1%;
+    color: white;
+
+}
+
+#statustxt {
+	top:3px;
+	left:50%;
+	position:absolute;
+	display:inline-block;
+	color: #FFFFFF;
+}
+
+/**
+ * List section
+ */
+#yofla360_plugin_media_list{
+
+}
+
+ul.products_list {
+   margin-left: 10px;
+}
+
+ul.products_list li{
+    list-style: disc;
+    margin-left: 10px;
+    font-size: 16px !important;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+ul.products_list li.invalid{
+    list-style: square;
+    margin-left: 10px;
+    color: #444 !important;
+    font-weight: normal;
+}
+
+
+ul.products_list li span.action{
+    text-decoration: underline;
+    font-size: 13px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+
+ul.products_list li span.invalid{
+    font-size: 13px;
+    font-weight: normal;
+}
+
+
+

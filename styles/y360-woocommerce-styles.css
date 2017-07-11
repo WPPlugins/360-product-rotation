@@ -1,0 +1,10 @@
+div.y360_variable_products {
+}
+
+div.y360_variable_products div.y360_variant {
+	display: none;
+}
+
+div.y360_variable_products div.y360_variant iframe{
+	min-height: 300px;
+}
